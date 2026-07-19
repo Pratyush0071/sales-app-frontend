@@ -29,8 +29,8 @@ export default function Login() {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4">
       {/* Logo */}
       <div className="flex flex-col items-center mb-8">
-        <div className="w-16 h-16 rounded-2xl bg-primary flex items-center justify-center text-white font-bold text-xl mb-3">ST</div>
-        <h1 className="text-2xl font-bold text-gray-900">SalesTrack</h1>
+        <div className="w-16 h-16 rounded-2xl bg-primary flex items-center justify-center text-white font-bold text-xl mb-3">SND</div>
+        <h1 className="text-2xl font-bold text-gray-900">Sales and Distribution</h1>
         <p className="text-sm text-gray-500 mt-1">Field operations &amp; reporting</p>
       </div>
 

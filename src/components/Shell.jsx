@@ -38,9 +38,9 @@ export default function Shell({ children }) {
       <aside className="hidden md:flex flex-col w-64 bg-navy text-white min-h-screen">
         {/* Logo */}
         <div className="flex items-center gap-3 px-6 py-5 border-b border-navy-light">
-          <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center font-bold text-sm">ST</div>
+          <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center font-bold text-sm">SND</div>
           <div>
-            <div className="font-bold text-base leading-tight">SalesTrack</div>
+            <div className="font-bold text-base leading-tight">Sales and Distribution</div>
             <div className="text-xs text-blue-200">Field operations</div>
           </div>
         </div>
@@ -80,8 +80,8 @@ export default function Shell({ children }) {
       {/* Mobile top bar */}
       <div className="md:hidden fixed top-0 left-0 right-0 h-14 bg-navy text-white z-40 flex items-center justify-between px-4">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center font-bold text-xs">ST</div>
-          <span className="font-bold">SalesTrack</span>
+          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center font-bold text-xs">SND</div>
+          <span className="font-bold">Sales and Distribution</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="text-xs text-blue-300">{user?.name}</span>
